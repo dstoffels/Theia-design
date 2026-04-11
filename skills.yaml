@@ -142,10 +142,10 @@ skills:
       Strength: 4
       Intellect: 4
 
-    # Pioneer
+  # Settler
 
   Survival:
-    description: Basic crafting, food preparation, and first aid.
+    description: From basic crafting and first aid to settlement and resource management.
     attribute_weights:
       Acuity: 8
       Vitality: 4

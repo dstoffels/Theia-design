@@ -3,7 +3,7 @@
 ### Domains
 Every skill belongs to a group of related skills called a ***Domain*** that it collectively contributes SP to as it levels up, along with the other skills in the domain. A domain is also the base ***archetype*** for the character, which levels up at 100SP, unlocking at level 1. Once unlocked, you can choose to elect a domain, the first step in defining your character's archetype, which unlocks archetypal skill trees with unique abilities and bonuses.
 
-There are 4 primary domains: Warrior, Rogue, Mystic, and Mage. There are also 3 professional domains: Builder, Pioneer, and Scholar. Domains and professions are only mutually exclusive to each other, meaning you can choose one primary domain and one profession.
+There are 4 primary domains: Warrior, Rogue, Mystic, and Mage. There are also 3 professional domains: Builder, Settler, and Scholar. Domains and professions are only mutually exclusive to each other, meaning you can choose one primary domain and one profession.
 
 | Domain | Skills | Description |
 | --- | --- | --- |
@@ -15,7 +15,7 @@ There are 4 primary domains: Warrior, Rogue, Mystic, and Mage. There are also 3 
 | Profession | Skills | Description |
 | --- | --- | --- |
 | Builder | Woodworking, Masonry, Metallurgy | Builders are skilled in crafting, construction and engineering with wood, stone and metal. |
-| Pioneer | Survival, Husbandry, Outfitting | Pioneers are the backbone of civilization, from basic survival to agriculture and tailoring. |
+| Settler | Survival, Husbandry, Outfitting | Settlers are the backbone of civilization, from basic survival to agriculture and tailoring. |
 | Scholar | Alchemy, Artifacts, Spellbinding | Scholars are dedicated to the pursuit of knowledge, mastering various academic and magical disciplines. |
 
 ### Subdomains
@@ -36,33 +36,30 @@ Each skill is also associated with a single tier 2 archetype called a ***Special
 
 Finally, the tier 3 archetype is a secondary, late-game specialization of a skill called a ***Subspec***, which unlocks at skill level 600 and domain level 40. A subspec can be elected in addition to any tier 2 archetype, but must reside in the character's elected domain(s).
 
-| Domain | Skill | Specialization |
+| Specialization | Skill | Domain |
 | --- | --- | --- |
-| Warrior | Bludgeons | Mauler |
-| Warrior | Polearms | Dragoon |
-| Warrior | Swords | Kensai |
-| Warrior | Defense | Vanguard |
-| Rogue | Shortblades | Sicarius |
-| Rogue | Archery | Archer |
-| Rogue | Unarmed | Pugilist |
-| Rogue | Subterfuge | Scoundrel |
-| Mystic | Animism | Shaman |
-| Mystic | Manifestation | Conjurer |
-| Mystic | Psionism | Psion |
-| Mystic | Speechcraft | Bard |
-| Mage | Cohesion | Geometer |
-| Mage | Entropics | Disruptor |
-| Mage | Galvanics | Inductor |
-| Mage | Displacement | Kineticist |
-| Builder | Woodworking | Carpenter |
-| Builder | Masonry | Stonemason |
-| Builder | Metallurgy | Smith |
-| Pioneer | Survival | Pathfinder |
-| Pioneer | Husbandry | Agrarian |
-| Pioneer | Outfitting | Tailor |
-| Scholar | Alchemy | Alchemist |
-| Scholar | Artifacts | Artificer |
-| Scholar | Spellbinding | Enchanter |
-
-
-
+| Mauler | Bludgeons | Warrior |
+| Dragoon | Polearms | Warrior |
+| Kensai | Swords | Warrior |
+| Vanguard | Defense | Warrior |
+| Sicarius | Shortblades | Rogue |
+| Archer | Archery | Rogue |
+| Pugilist | Unarmed | Rogue |
+| Scoundrel | Subterfuge | Rogue |
+| Shaman | Animism | Mystic |
+| Conjurer | Manifestation | Mystic |
+| Psion | Psionism | Mystic |
+| Bard | Speechcraft | Mystic |
+| Geometer | Cohesion | Mage |
+| Disruptor | Entropics | Mage |
+| Inductor | Galvanics | Mage |
+| Kineticist | Displacement | Mage |
+| Carpenter | Woodworking | Builder |
+| Stonemason | Masonry | Builder |
+| Smith | Metallurgy | Builder |
+| Warden | Survival | Settler |
+| Agrarian | Husbandry | Settler |
+| Tailor | Outfitting | Settler |
+| Alchemist | Alchemy | Scholar |
+| Artificer | Artifacts | Scholar |
+| Enchanter | Spellbinding | Scholar |

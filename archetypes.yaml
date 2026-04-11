@@ -27,16 +27,14 @@ domains:
       - Entropics
       - Galvanics
       - Displacement
-
-professions:
   Builder:
     description: Builders are skilled in crafting, construction and engineering with wood, stone and metal.
     skills:
       - Woodworking
       - Masonry
       - Metallurgy
-  Pioneer:
-    description: Pioneers are the backbone of civilization, from basic survival to agriculture and tailoring.
+  Settler:
+    description: Settlers are the backbone of civilization, from basic survival to agriculture and tailoring.
     skills:
       - Survival
       - Husbandry
@@ -143,15 +141,15 @@ specializations:
     skill: Metallurgy
     domain: Builder
 
-  Pathfinder:
+  Warden:
     skill: Survival
-    domain: Pioneer
+    domain: Settler
   Agrarian:
     skill: Husbandry
-    domain: Pioneer
+    domain: Settler
   Tailor:
     skill: Outfitting
-    domain: Pioneer
+    domain: Settler
   
   Alchemist:
     skill: Alchemy

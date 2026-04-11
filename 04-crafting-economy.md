@@ -57,7 +57,7 @@ Raw materials are extracted directly from resource nodes and are often refined b
 - Refined materials denoted with an asterisk require multiple materials to create.
 
 #### Minerals
-Minerals come from **deposits** and can also be gathered from the environment (Survival) in smaller amounts.
+Minerals come from **deposits** and can also be gathered from the environment (Survival) in smaller amounts. Surface deposits can be extracted with hand tools and contain fewer resources, while underground deposits require a mine or quarry to be built over them but yield much larger quantities.
 
 **Skill**: Masonry
 
