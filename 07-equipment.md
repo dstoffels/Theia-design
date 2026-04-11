@@ -1,7 +1,12 @@
-## Warrior Skills
-*Monoform: A complete weapon made from a single piece instead of modular components. Easy to craft, but less effective than modular weapons.
+Any edits made in this subtree on the [main game repository](https://github.com/dstoffels/Theia.git) must be pushed to the [Theia-design](https://github.com/dstoffels/Theia-design.git) repository:
+```bash
+git subtree push --prefix=design https://github.com/dstoffels/Theia-design.git main
+```
 
-### Bludgeons
+# Equipment
+
+
+## Bludgeons
 Maces, axes and hammers, any weapon with a handle and weighted head. One-handed bludgeons are great for dual wielding and small axes are especially good for throwing. Big, heavy, two-handed bludgeons, like battle axes and mauls, are perfect for those who like dealing loads of damage with reckless abandon. Bludgeons are particularly suited for overpowering defenses, knocking away shields or dealing damage directly to shields/armor. All bludgeons deal impact damage, which damages your opponents equipment.
 
 
@@ -11,10 +16,10 @@ Maces, axes and hammers, any weapon with a handle and weighted head. One-handed 
 | Vitality | 4 |
 | Agility | 2 |
 
-#### Components
+### Components
 Bludgeons are typically made by combining a handle and head, but some bludgeons are made from a single piece of material, like a tree branch or a solid metal club. The handle can be made from wood, bone or metal, while the head is typically made from stone or metal. The combination of these components creates a wide variety of bludgeons with different characteristics.
 
-##### Heads
+#### Heads
 **Size**
 - Small: 0.5-1kg
 - Medium: 1-2kg
@@ -26,21 +31,21 @@ Bludgeons are typically made by combining a handle and head, but some bludgeons 
 - Axehead: A head with a one vertical edge.
 - Adzehead: A head with one horizontal edge.
 
-##### Handles
+#### Handles
 - Short: 20-40cm, short one-handed bludgeons, can typically be thrown.
 - Medium: 40-80cm, switch-handed bludgeons.
 - Long: 80-120cm, large, heavy two-handed bludgeons.
 
-##### Modifiers
+#### Modifiers
 - Pick: A long spike, typically attached to a hammer or adze, used for piercing armor.
 - Flange: A protruding ridge or rim to increase the impact of a mace.
 - Spike: A small, pointed projection to add armor piercing to a mace.
 
-##### Attacks
+#### Attacks
 
 
 
-#### Cudgel
+### Cudgel
 A short, simple wooden club.
 
 **Base Weight (kg)**: 1.0
@@ -59,7 +64,7 @@ A short, simple wooden club.
 ---
 
 
-#### Hatchet
+### Hatchet
 A small axe with a single cutting edge.
 
 **Base Weight (kg)**: 1.5
@@ -79,7 +84,7 @@ A small axe with a single cutting edge.
 ---
 
 
-#### Knobkerrie
+### Knobkerrie
 A long wooden club with a heavy rounded end.
 
 **Base Weight (kg)**: 1.2
@@ -98,7 +103,7 @@ A long wooden club with a heavy rounded end.
 ---
 
 
-#### Axe
+### Axe
 A versatile axe used for combat or utility, wielded one- or two-handed.
 
 **Base Weight (kg)**: 2.0
@@ -118,7 +123,7 @@ A versatile axe used for combat or utility, wielded one- or two-handed.
 ---
 
 
-#### Adze
+### Adze
 A tool with a curved blade used for carving, repurposed as a weapon.
 
 **Base Weight (kg)**: 3.5
@@ -138,7 +143,7 @@ A tool with a curved blade used for carving, repurposed as a weapon.
 ---
 
 
-#### Pickaxe
+### Pickaxe
 A tool with a pointed end and flat blade, used in combat for its weight.
 
 **Base Weight (kg)**: 4.5
@@ -160,7 +165,7 @@ A tool with a pointed end and flat blade, used in combat for its weight.
 ---
 
 
-#### Tomahawk
+### Tomahawk
 A small, lightweight hatchet, often used for throwing.
 
 **Base Weight (kg)**: 1.4
@@ -180,7 +185,7 @@ A small, lightweight hatchet, often used for throwing.
 ---
 
 
-#### Mace
+### Mace
 A blunt weapon with a reinforced striking head, often ornate.
 
 **Base Weight (kg)**: 2.5
@@ -200,7 +205,7 @@ A blunt weapon with a reinforced striking head, often ornate.
 ---
 
 
-#### War Club
+### War Club
 A medium-length, wooden bat-shaped club with metal studs on the business end.
 
 **Base Weight (kg)**: (varies)
@@ -220,7 +225,7 @@ A medium-length, wooden bat-shaped club with metal studs on the business end.
 ---
 
 
-#### Flail
+### Flail
 A weapon with a spiked ball attached to a handle by a chain, used for striking over shields.
 
 **Base Weight (kg)**: (varies)
@@ -242,7 +247,7 @@ A weapon with a spiked ball attached to a handle by a chain, used for striking o
 ---
 
 
-#### Mattock
+### Mattock
 A two-handed tool with an axe blade and pick, used for digging or combat.
 
 **Base Weight (kg)**: 4.0
@@ -264,7 +269,7 @@ A two-handed tool with an axe blade and pick, used for digging or combat.
 ---
 
 
-#### Maul
+### Maul
 A large, two-handed hammer with a heavy striking head.
 
 **Base Weight (kg)**: 6.0
@@ -284,7 +289,7 @@ A large, two-handed hammer with a heavy striking head.
 ---
 
 
-#### Horseman's Pick
+### Horseman's Pick
 A weapon with a spike for piercing armor, often used on horseback.
 
 **Base Weight (kg)**: 3.0
@@ -306,7 +311,7 @@ A weapon with a spike for piercing armor, often used on horseback.
 ---
 
 
-#### Morningstar
+### Morningstar
 A mace with spikes, designed to pierce as well as bludgeon.
 
 **Base Weight (kg)**: 2.8
@@ -328,7 +333,7 @@ A mace with spikes, designed to pierce as well as bludgeon.
 ---
 
 
-#### Battle Axe
+### Battle Axe
 A large, two-handed axe designed for combat.
 
 **Base Weight (kg)**: 5.0
@@ -348,7 +353,7 @@ A large, two-handed axe designed for combat.
 ---
 
 
-#### Pernach
+### Pernach
 A flanged mace from Eastern Europe, effective against armored foes.
 
 **Base Weight (kg)**: 2.7
@@ -369,7 +374,7 @@ A flanged mace from Eastern Europe, effective against armored foes.
 ---
 
 
-#### War Hammer
+### War Hammer
 A hammer with a heavy striking head, often paired with a spike for versatility.
 
 **Base Weight (kg)**: 3.8
@@ -390,7 +395,7 @@ A hammer with a heavy striking head, often paired with a spike for versatility.
 
 ---
 
-### Polearms
+## Polearms
 Polearms include any type of spear or staff, all of which can be used with one or two hands. They’re great when combined with large shields, keeping a moderate distance between the wielder and the target while covering the body from ranged attacks. Polearms can be particularly effective against swords with their impressive reach, imparting the same AOC that prevents melee opponents equipped with shorter weapons from attacking you unless they bypass (mechanic yet to be defined).
 
 | Attribute | Weight |
@@ -398,34 +403,34 @@ Polearms include any type of spear or staff, all of which can be used with one o
 | Strength | 6 |
 | Agility | 6 |
 
-#### Components
+### Components
 Polearms are typically made by combining a long, narrow shaft with a spearhead. Some polearms are made from raw materials, while complex polearms may combine multiple heads or blades. The shaft can be made from wood, bone or metal, while the head is typically made from stone or metal. The combination of these components creates a wide variety of polearms with different characteristics.
 
-##### Heads
+#### Heads
 - Spearhead: A long, tapered blade designed for thrusting.
 - Axehead: A head with a one vertical edge.
 - Hammerhead: A round, horizontal head.
 - Macehead: A round, vertical head.
 
-##### Blades
+#### Blades
 - Leaf Blade
 - Convex Blade
 - Broad Blade
 - Curved Blade
 
-##### Shafts
+#### Shafts
 - Short: 1-1.5m
 - Medium: 1.5-2m
 - Long: 2-3m
 - Great: 3-4m, often requires a butt cap for balance.
 
-##### Modifiers
+#### Modifiers
 - Hook: A curved blade or projection used for pulling or disarming opponents.
 - Spike: A pointed projection used for piercing armor or as a secondary attack option.
 - Butt Cap: A weighted end on the shaft opposite the head, used for striking or balance.
 
 
-#### Bo
+### Bo
 A medium-length wooden staff, little more than a long club.
 
 **Base Weight (kg)**: 1.5
@@ -440,7 +445,7 @@ A medium-length wooden staff, little more than a long club.
 **Recipe** (Monoform):
 - 2 Wood
 
-#### Assegai
+### Assegai
 A short spear or javelin, used for throwing and thrusting in close combat.
 
 **Base Weight (kg)**: 1.8
@@ -457,7 +462,7 @@ A short spear or javelin, used for throwing and thrusting in close combat.
 
 ---
 
-#### Spear
+### Spear
 A long pole with a pointed tip, used for thrusting or throwing.
 
 **Base Weight (kg)**: 2.0
@@ -475,7 +480,7 @@ A long pole with a pointed tip, used for thrusting or throwing.
 
 ---
 
-#### Quarterstaff
+### Quarterstaff
 A long, staff fitted with metal caps on either end.
 
 **Base Weight (kg)**: 2.5
@@ -490,7 +495,7 @@ A long, staff fitted with metal caps on either end.
 - Long Shaft
 - Butt Cap
 
-#### Lance
+### Lance
 A very long, heavy spear used primarily in cavalry charges or jousting.
 
 **Base Weight (kg)**: 3.5
@@ -508,7 +513,7 @@ A very long, heavy spear used primarily in cavalry charges or jousting.
 
 ---
 
-#### Poleaxe
+### Poleaxe
 A weapon with an axe blade, a hammerhead, and a spear tip, wildly versatile for various combat situations. An axe blade for slashing, hammerhead for impact, and spear tip for thrusting.
 
 **Base Weight (kg)**: 3.0
@@ -529,7 +534,7 @@ A weapon with an axe blade, a hammerhead, and a spear tip, wildly versatile for 
 
 ---
 
-#### Halberd
+### Halberd
 A combination of axe, spear, and hook, effective in both close and long-range combat. An axe blade for slashing, spear tip for thrusting, and hook for disarming or pulling opponents.
 
 **Base Weight (kg)**: 3.5
@@ -549,7 +554,7 @@ A combination of axe, spear, and hook, effective in both close and long-range co
 
 ---
 
-#### Spetum
+### Spetum
 A polearm with a long, pointed head and two side blades. The central blade is used for thrusting, while the side blades can be used for slashing.
 
 **Base Weight (kg)**: 3.0
@@ -569,7 +574,7 @@ A polearm with a long, pointed head and two side blades. The central blade is us
 
 ---
 
-#### Pike
+### Pike
 A very long spear, used for defense or in formations to hold off cavalry.
 
 **Base Weight (kg)**: 4.0
@@ -587,7 +592,7 @@ A very long spear, used for defense or in formations to hold off cavalry.
 
 ---
 
-#### Bill
+### Bill
 A polearm with a hook and an axe blade, often used by foot soldiers.
 
 **Base Weight (kg)**: 3.2
@@ -606,7 +611,7 @@ A polearm with a hook and an axe blade, often used by foot soldiers.
 
 ---
 
-#### Bardiche
+### Bardiche
 A medium-length pole with a broad curved blade, essentially a long battle axe.
 
 **Base Weight (kg)**: 4.5
@@ -624,7 +629,7 @@ A medium-length pole with a broad curved blade, essentially a long battle axe.
 
 ---
 
-#### Naginata
+### Naginata
 A polearm with a curved blade, used for cutting or sweeping attacks.
 
 **Base Weight (kg)**: 4.0
@@ -642,7 +647,7 @@ A polearm with a curved blade, used for cutting or sweeping attacks.
 
 ---
 
-#### Glaive
+### Glaive
 A polearm with a single-edged blade, designed for slashing or thrusting.
 
 **Base Weight (kg)**: 3.5
@@ -660,7 +665,7 @@ A polearm with a single-edged blade, designed for slashing or thrusting.
 
 ---
 
-#### Voulge
+### Voulge
 A polearm with a wide, curved blade, designed for powerful strikes and piercing armor.
 
 **Base Weight (kg)**: 4.2
@@ -681,7 +686,7 @@ A polearm with a wide, curved blade, designed for powerful strikes and piercing 
 
 ---
 
-#### Partisan
+### Partisan
 A polearm with a long, sword-like tip, used for powerful thrusts against armored foes.
 
 **Base Weight (kg)**: 4.0
@@ -701,7 +706,7 @@ A polearm with a long, sword-like tip, used for powerful thrusts against armored
 
 ---
 
-#### Guisarme
+### Guisarme
 A polearm with a hooked blade, used for disarming and pulling enemies off their mounts.
 
 **Base Weight (kg)**: 4.5
@@ -721,7 +726,7 @@ A polearm with a hooked blade, used for disarming and pulling enemies off their 
 
 ---
 
-#### Boar Spear
+### Boar Spear
 A spear designed with a broad blade, used for hunting boars and piercing armor.
 
 **Base Weight (kg)**: 3.8
@@ -739,7 +744,7 @@ A spear designed with a broad blade, used for hunting boars and piercing armor.
 
 ---
 
-#### Fauchard
+### Fauchard
 A French polearm with a wide curved blade and a hook.
 
 **Base Weight (kg)**: 4.0
@@ -758,7 +763,7 @@ A French polearm with a wide curved blade and a hook.
 
 ---
 
-#### Nodachi
+### Nodachi
 A very long sword on a pole, used for massive slashing attacks.
 
 **Base Weight (kg)**: 5.0
@@ -776,7 +781,7 @@ A very long sword on a pole, used for massive slashing attacks.
 
 ---
 
-#### Zhanmadao
+### Zhanmadao
 A pole with a long, curved blade.
 
 **Base Weight (kg)**: 5.5
@@ -794,7 +799,7 @@ A pole with a long, curved blade.
 
 
 
-### Swords
+## Swords
 Longswords, shortswords, and other long-bladed weapons.
 
 | Attribute | Weight |
@@ -803,10 +808,10 @@ Longswords, shortswords, and other long-bladed weapons.
 | Strength | 3 |
 | Agility | 3 |
 
-#### Components
+### Components
 A combination of components make the recipe for specific swords. Each component has its own properties that affect the stats of the sword, and the combination of these components creates a wide variety of swords with different characteristics. Minimally, the blade and grip combine to craft a sword, while the guard and pommel are optional for producing specific swords and effects.
 
-##### Blade
+#### Blade
 **Size**
 The length of the blade which determines base weight (g) and **reach**, an Area of Control (AOC) that prevents melee opponents equipped with shorter weapons from attacking you unless they successfully close the gap (*need technique name*).
 
@@ -824,19 +829,19 @@ The main component of a sword, which is fitted with a grip, and optional guard t
 - Convex: A wide, curved, single-edged blade that excels at slashing.
 
 
-##### Grip
+#### Grip
 - Single: 1-handed grip
 - Double: 2-handed grip.
 - Bastard: 1.5-handed grip, can be used with one or two hands.
 
-##### Guard
+#### Guard
 A guard is fitted where the blade meets the hilt, adding a parry bonus and may define the type of sword.
 - Ring: a circular disk that separates the blade from the hilt
 - Cross: a horizontal bar that extends from the hilt on either side of the blade
 - Basket: an ornate, cage-like structure that encloses the hand.
 - Knuckle: a curved bar that extends from the hilt to the pommel.
 
-##### Pommel
+#### Pommel
 The pommel is a counterweight at the end of a sword's hilt that balances the weapon to affect speed or damage.
 - Ring: a circular disk perpendicular to the blade.
 - Disc: a flat, circular pommel inline with the blade.
@@ -845,7 +850,7 @@ The pommel is a counterweight at the end of a sword's hilt that balances the wea
 - Mushroom: a long, tapered, rounded pommel.
 - Spike: a sharp hilt extension that can be used for armor piercing in close-quarters.
 
-##### Attacks
+#### Attacks
 - S: Slash
 - T: Thrust
 
@@ -872,7 +877,7 @@ The pommel is a counterweight at the end of a sword's hilt that balances the wea
 
 - *Material: the minimal material required to craft the weapon.
 
-### Defense
+## Defense
 Defense is a skill that encompasses the use of shields, armor. As a skill it's primarily focused on the use of shields. For armor, your defense proficiency allows you to mitigate the **hindrance** imparted by wearing more armor. 
 
 | Attribute | Weight |
@@ -881,7 +886,7 @@ Defense is a skill that encompasses the use of shields, armor. As a skill it's p
 | Vitality | 4 |
 | Acuity | 2 |
 
-#### Armor
+### Armor
 There are six armor slots with three distinct layers for each armor class each, which can be equipped simultaneously. Each slot groups individual body parts in the character's **Anatomy**.
 
 | Slot | Body Parts |
@@ -893,10 +898,10 @@ There are six armor slots with three distinct layers for each armor class each, 
 | Legs | Legs  |
 | Feet | Feet  |
 
-##### Hindrance
+#### Hindrance
 Hindrance is the resistance armor imparts on the user's mobility. The total hindrance of all equipped armor is subtracted from your defense proficiency to determine the debility incurred. If your defense proficiency is greater than the total hindrance, no penalty is incurred, however you won’t earn XP in defense without an active hindrance penalty while engaged in combat. XP are earned when you perform any action in combat, while equipped with enough armor to incur a hindrance penalty.
 
-##### Padded Armor
+#### Padded Armor
 Little more than thick, densely packed clothing, padded armor is the required undergarment for Maille and Heavy Armor. 
 
 | Armor | Slots | Body Parts |
@@ -908,7 +913,7 @@ Little more than thick, densely packed clothing, padded armor is the required un
 | Cuisses | Legs | Legs |
 | Boots | Feet | Feet |
 
-##### Maille
+#### Maille
 A mesh of linked metal rings painstakingly assembled into heavy garments that must be worn over padded armor. King’s maille is a thicker, denser pattern providing even greater protection & hindrance. Maille is impervious to precision attacks as there are no gaps in coverage. Since maille can only be made from metal, it's typically too conductive for magic users to wear.
 
 | Armor | Slots | Body Parts |
@@ -919,7 +924,7 @@ A mesh of linked metal rings painstakingly assembled into heavy garments that mu
 | Mitons | Hands | Hands |
 | Chausses | Legs | Legs |
 
-##### Heavy Armor
+#### Heavy Armor
 A versatile collection of plate & lame armors that can be made from wood, metal or other rigid materials like bone or cuir bouilli (boiled leather). Heavy Armor made from wood or rigid materials makes for great early-game protection, while advanced metal plate provides maximum protection in the higher levels.
 
 **Lamellar**
@@ -953,9 +958,7 @@ A versatile collection of plate & lame armors that can be made from wood, metal 
 
 ---
 
-## Rogue Skills
-
-### Shortblades
+## Shortblades
 Daggers and knives are easily concealed, great for dual wielding and can be thrown, but have a short reach that puts the user at risk against longer melee weapons. Shortblades have an intrinsic bonus vs armor, both with soft spots and armor piercing.
 
 | Attribute | Weight |
@@ -968,7 +971,7 @@ Daggers and knives are easily concealed, great for dual wielding and can be thro
 | Xiphos | 50 | 500 | 50 | Iron | None |
 | Machete         | 50 | 500 | 50 | Iron | None | -->
 
-### Archery
+## Archery
 Bows, crossbows, and fletching.
 
 | Attribute | Weight |
@@ -977,7 +980,7 @@ Bows, crossbows, and fletching.
 | Acuity | 4 |
 | Dexterity | 2 |
 
-### Unarmed
+## Unarmed
 Hand-to-hand combat, grappling and takedowns.
 
 | Attribute | Weight |
@@ -986,7 +989,7 @@ Hand-to-hand combat, grappling and takedowns.
 | Strength | 3 |
 | Dexterity | 3 |
 
-### Subterfuge
+## Subterfuge
 Stealth, thievery, and various thrown and projectile weapons.
 
 | Attribute | Weight |
@@ -995,9 +998,7 @@ Stealth, thievery, and various thrown and projectile weapons.
 | Dexterity | 3 |
 | Acuity | 3 |
 
-## Mystic Skills
-
-### Animism
+## Animism
 Control of the life forces; healing and protection.
 
 | Attribute | Weight |
@@ -1005,7 +1006,7 @@ Control of the life forces; healing and protection.
 | Presence | 6 |
 | Discipline | 6 |
 
-### Manifestation
+## Manifestation
 Bringing the ethereal to the corporeal; summoning and reanimation.
 
 | Attribute | Weight |
@@ -1013,7 +1014,7 @@ Bringing the ethereal to the corporeal; summoning and reanimation.
 | Presence | 6 |
 | Intellect | 6 |
 
-### Psionism
+## Psionism
 Manipulation of the mind; illusions and clairvoyance.
 
 | Attribute | Weight |
@@ -1022,7 +1023,7 @@ Manipulation of the mind; illusions and clairvoyance.
 | Discipline | 4 |
 | Acuity | 2 |
 
-### Speechcraft
+## Speechcraft
 Sound and song to influence mind and matter.
 
 | Attribute | Weight |
@@ -1031,9 +1032,7 @@ Sound and song to influence mind and matter.
 | Acuity | 3 |
 | Discipline | 3 |
 
-## Mage Skills
-
-### Cohesion
+## Cohesion
 Elemental order; crystallization and cooling.
 
 | Attribute | Weight |
@@ -1041,7 +1040,7 @@ Elemental order; crystallization and cooling.
 | Discipline | 8 |
 | Intellect | 4 |
 
-### Entropics
+## Entropics
 Elemental disorder; disruption and heating.
 
 | Attribute | Weight |
@@ -1050,7 +1049,7 @@ Elemental disorder; disruption and heating.
 | Discipline | 3 |
 | Acuity | 3 |
 
-### Galvanics
+## Galvanics
 Elemental fields; plasma and electromagnetic forces.
 
 | Attribute | Weight |
@@ -1058,7 +1057,7 @@ Elemental fields; plasma and electromagnetic forces.
 | Intellect | 6 |
 | Acuity | 6 |
 
-### Displacement
+## Displacement
 Elemental distortion; telekinesis and spatial manipulation.
 
 | Attribute | Weight |
@@ -1066,9 +1065,7 @@ Elemental distortion; telekinesis and spatial manipulation.
 | Intellect | 8 |
 | Discipline | 4 |
 
-## Builder Skills
-
-### Woodworking
+## Woodworking
 Building structures and crafting wooden components.
 
 | Attribute | Weight |
@@ -1077,7 +1074,7 @@ Building structures and crafting wooden components.
 | Strength | 4 |
 | Vitality | 2 |
 
-### Masonry
+## Masonry
 Mining, quarrying, and construction with stone and earth.
 
 | Attribute | Weight |
@@ -1085,7 +1082,7 @@ Mining, quarrying, and construction with stone and earth.
 | Vitality | 6 |
 | Strength | 6 |
 
-### Metallurgy
+## Metallurgy
 Smelting, forging, and crafting with metals.
 
 | Attribute | Weight |
@@ -1094,9 +1091,7 @@ Smelting, forging, and crafting with metals.
 | Strength | 4 |
 | Intellect | 4 |
 
-## Pioneer Skills
-
-### Survival
+## Survival
 Basic crafting, food preparation, and first aid.
 
 | Attribute | Weight |
@@ -1104,7 +1099,7 @@ Basic crafting, food preparation, and first aid.
 | Acuity | 8 |
 | Vitality | 4 |
 
-### Husbandry
+## Husbandry
 Livestock, crop cultivation, and resource management.
 
 | Attribute | Weight |
@@ -1113,7 +1108,7 @@ Livestock, crop cultivation, and resource management.
 | Strength | 3 |
 | Presence | 3 |
 
-### Outfitting
+## Outfitting
 Clothing, cobbling, armor and textiles.
 
 | Attribute | Weight |
@@ -1121,9 +1116,8 @@ Clothing, cobbling, armor and textiles.
 | Dexterity | 6 |
 | Acuity | 6 |
 
-## Scholar Skills
 
-### Alchemy
+## Alchemy
 Transforming substances and creating potions.
 
 | Attribute | Weight |
@@ -1131,7 +1125,7 @@ Transforming substances and creating potions.
 | Intellect | 7 |
 | Acuity | 5 |
 
-### Artifacts
+## Artifacts
 Crafting wands, staves, talismans, and charms.
 
 | Attribute | Weight |
@@ -1139,7 +1133,7 @@ Crafting wands, staves, talismans, and charms.
 | Intellect | 8 |
 | Dexterity | 4 |
 
-### Spellbinding
+## Spellbinding
 Embedding magical properties into objects and materials.
 
 | Attribute | Weight |

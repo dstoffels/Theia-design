@@ -1,9 +1,9 @@
-# Stats
-If edits or corrections are made in this subtree on the [main game repository](https://github.com/dstoffels/Theia.git), they must be pushed to the [Theia-design](https://github.com/dstoffels/Theia-design.git) repository:
+Any edits made in this subtree on the [main game repository](https://github.com/dstoffels/Theia.git) must be pushed to the [Theia-design](https://github.com/dstoffels/Theia-design.git) repository:
 ```bash
 git subtree push --prefix=design https://github.com/dstoffels/Theia-design.git main
 ```
----
+
+# Stats
 
 ## Attributes
 There are 8 attributes that serve as the core for a character's Skills & Vitals. Attribute levels are assigned at character creation and modified by the character's Lineage. As you level up your skills, skill points (SP) are allocated to the skill's associated attributes, leveling them up with every 100SP.

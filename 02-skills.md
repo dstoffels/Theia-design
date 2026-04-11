@@ -1,4 +1,4 @@
-If edits or corrections are made in this subtree on the [main game repository](https://github.com/dstoffels/Theia.git), they must be pushed to the [Theia-design](https://github.com/dstoffels/Theia-design.git) repository:
+Any edits made in this subtree on the [main game repository](https://github.com/dstoffels/Theia.git) must be pushed to the [Theia-design](https://github.com/dstoffels/Theia-design.git) repository:
 ```bash
 git subtree push --prefix=design https://github.com/dstoffels/Theia-design.git main
 ```
@@ -196,7 +196,7 @@ Smelting, forging, and crafting with metals.
 
 
 ### Survival
-Basic crafting, food preparation, and first aid.
+From basic crafting and first aid to settlement and resource management.
 
 **Attribute Weights:**
 - Acuity: 8
