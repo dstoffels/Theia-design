@@ -1,0 +1,28 @@
+globals:
+  SKILL_POINTS_PER_LEVEL: 20
+  DEFAULT_STARTING_LEVEL: 10
+  
+attributes:
+  Vitality:
+    description: Physical fitness, endurance, and resistance to harm or environmental extremes.
+  
+  Strength:
+    description: Raw physical power, reflecting the ability to exert force, break barriers, and endure heavy physical strain.
+  
+  Agility:
+    description: Swift and graceful movement, representing balance, speed and reflexes, defining the fluidity of motion in physical activity.
+
+  Dexterity:
+    description: Fine motor skills, precision, steadiness, and control for tasks requiring finesse and skillful handling.
+
+  Discipline:
+    description: Focus, self-control, and mental fortitude, signifying the ability to stay composed and consistent under pressure.
+
+  Intellect:
+    description: Abstract reasoning, comprehension, and problem-solving, reflecting the capacity for logic, learning, and mastery of knowledge.
+
+  Presence:
+    description: Passion, creativity, and influence over other beings, representing the depth of spiritual connection. 
+
+  Acuity:
+    description: Keenness of the senses, reflecting awareness, intuition, and ability to respond quickly to their surroundings.

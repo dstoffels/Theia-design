@@ -1,0 +1,168 @@
+globals:
+
+domains:
+  Warrior:
+    description: Warriors specialize in melee combat, utilizing infantry weapons, shields and armor.
+    skills:
+      - Bludgeons
+      - Polearms
+      - Swords
+      - Defense
+  Rogue:
+    description: Rogues employ unconventional combat, relying on ranged weapons, stealth and precision.
+    skills:
+      - Shortblades
+      - Archery
+      - Unarmed
+      - Subterfuge
+  Mystic:
+    description: Mystics embrace the mystical arts, harnessing the power of the mind and spirit.
+    skills:
+      - Animism
+      - Manifestation
+      - Psionism
+      - Speechcraft
+  Mage:
+    description: Mages manipulate the fundamental forces of nature, wielding elemental magic.
+    skills:
+      - Cohesion
+      - Entropics
+      - Galvanics
+      - Displacement
+
+professions:
+  Builder:
+    description: Builders are skilled in crafting, construction and engineering with wood, stone and metal.
+    skills:
+      - Woodworking
+      - Masonry
+      - Metallurgy
+  Pioneer:
+    description: Pioneers are the backbone of civilization, from basic survival to agriculture and tailoring.
+    skills:
+      - Survival
+      - Husbandry
+      - Outfitting
+  Scholar:
+    description: Scholars are dedicated to the pursuit of knowledge, mastering various academic and magical disciplines.
+    skills:
+      - Alchemy
+      - Artifacts
+      - Spellbinding
+
+subdomains:
+  Skirmisher:
+    description: Skirmishers are ruthless and cunning fighters, with wide ranging knowledge of weapons and tactics.
+    domains:
+      - Warrior
+      - Rogue
+  Cleric:
+    description: Clerics combine martial prowess and the mystic arts.
+    domains:
+      - Warrior
+      - Mystic
+  Battlemage:
+    description: Battlemages are versatile combatants, adept at both martial and magical combat.
+    domains:
+      - Warrior
+      - Mage
+  Ranger:
+    description: Rangers use elemental magic to enhance their cunning abilities.
+    domains:
+      - Rogue
+      - Mage
+  Monk:
+    description: Monks are agile and disciplined combatants, blending cunning with spiritual focus.
+    domains:
+      - Rogue
+      - Mystic
+  Sorcerer:
+    description: Sorcerers have wide ranging magical knowledge, studying both mystic arts and elemental forces.
+    domains:
+      - Mystic
+      - Mage
+
+specializations:
+  Mauler:
+    skill: Bludgeons
+    domain: Warrior
+  Dragoon:
+    skill: Polearms
+    domain: Warrior
+  Kensai:
+    skill: Swords
+    domain: Warrior
+  Vanguard:
+    skill: Defense
+    domain: Warrior
+
+  Sicarius:
+    skill: Shortblades
+    domain: Rogue
+  Archer:
+    skill: Archery
+    domain: Rogue
+  Pugilist:
+    skill: Unarmed
+    domain: Rogue
+  Scoundrel:
+    skill: Subterfuge
+    domain: Rogue
+
+  Shaman:
+    skill: Animism
+    domain: Mystic
+  Conjurer:
+    skill: Manifestation
+    domain: Mystic
+  Psion:
+    skill: Psionism
+    domain: Mystic
+  Bard:
+    skill: Speechcraft
+    domain: Mystic
+
+  Geometer:
+    skill: Cohesion
+    domain: Mage
+  Disruptor:
+    skill: Entropics
+    domain: Mage
+  Inductor:
+    skill: Galvanics
+    domain: Mage
+  Kineticist:
+    skill: Displacement
+    domain: Mage
+
+  Carpenter:
+    skill: Woodworking
+    domain: Builder
+  Stonemason:
+    skill: Masonry
+    domain: Builder
+  Smith:
+    skill: Metallurgy
+    domain: Builder
+
+  Pathfinder:
+    skill: Survival
+    domain: Pioneer
+  Agrarian:
+    skill: Husbandry
+    domain: Pioneer
+  Tailor:
+    skill: Outfitting
+    domain: Pioneer
+  
+  Alchemist:
+    skill: Alchemy
+    domain: Scholar
+  Artificer:
+    skill: Artifacts
+    domain: Scholar
+  Enchanter:
+    skill: Spellbinding
+    domain: Scholar
+
+  

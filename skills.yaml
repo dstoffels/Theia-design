@@ -1,0 +1,185 @@
+# attribute weight vectors for each skill must total SKILL_POINT_BASE (12)
+
+globals:
+  BASE_LEVEL_XP: 1000
+  LEVEL_XP_MULTIPLIER: 1.01
+  ATTRIBUTE_WEIGHT_TOTAL: 12
+
+skills:
+
+  # Warrior
+  Bludgeons:
+    description: Maces, hammers, axes, anything with a heavy head and haft.
+    attribute_weights:
+      Strength: 6
+      Vitality: 4
+      Agility: 2
+
+  Polearms:
+    description: Spears, halberds, and other long-reach weapons.
+    attribute_weights:
+      Strength: 6
+      Agility: 6
+
+  Swords:
+    description: Longswords, shortswords, and other long-bladed weapons.
+    attribute_weights:
+      Dexterity: 6
+      Strength: 3
+      Agility: 3
+
+  Defense:
+    description: Shields, armor, and other defensive combat techniques.
+    attribute_weights:
+      Strength: 6
+      Vitality: 4
+      Acuity: 2
+
+  # Rogue
+
+  Shortblades:
+    description: Short, easily concealed blades for quick strikes.
+    attribute_weights:
+      Dexterity: 6
+      Agility: 6
+
+  Archery:
+    description: Bows, crossbows, and fletching.
+    attribute_weights:
+      Strength: 6
+      Acuity: 4
+      Dexterity: 2
+
+  Unarmed:
+    description: Hand-to-hand combat, grappling and takedowns.
+    attribute_weights:
+      Agility: 6
+      Strength: 3
+      Dexterity: 3
+
+  Subterfuge:
+    description: Stealth, thievery, and various thrown and projectile weapons.
+    attribute_weights:
+      Agility: 6
+      Dexterity: 3
+      Acuity: 3
+
+  # Mystic
+
+  Animism:
+    description: Control of the life forces; healing and protection.
+    attribute_weights:
+      Presence: 6
+      Discipline: 6
+
+  Manifestation:
+    description: Bringing the ethereal to the corporeal; summoning and reanimation.
+    attribute_weights:
+      Presence: 6
+      Intellect: 6
+
+  Psionism:
+    description: Manipulation of the mind; illusions and clairvoyance.
+    attribute_weights:
+      Presence: 6
+      Discipline: 4
+      Acuity: 2
+
+  Speechcraft:
+    description: Sound and song to influence mind and matter.
+    attribute_weights:
+      Presence: 6
+      Acuity: 3
+      Discipline: 3
+
+  # Mage
+
+  Cohesion:
+    description: Elemental order; crystallization and cooling.
+    attribute_weights:
+      Discipline: 8
+      Intellect: 4
+  
+  Entropics:
+    description: Elemental disorder; disruption and heating.
+    attribute_weights:
+      Intellect: 6
+      Discipline: 3
+      Acuity: 3
+
+  Galvanics:
+    description: Elemental fields; plasma and electromagnetic forces.
+    attribute_weights:
+      Intellect: 6
+      Acuity: 6
+
+  Displacement:
+    description: Elemental distortion; telekinesis and spatial manipulation.
+    attribute_weights:
+      Intellect: 8
+      Discipline: 4
+
+
+  # Builder
+
+  Woodworking:
+    description: Building structures and crafting wooden components.
+    attribute_weights:
+      Dexterity: 6
+      Strength: 4
+      Vitality: 2
+
+  Masonry:
+    description: Mining, quarrying, and construction with stone and earth.
+    attribute_weights:
+      Vitality: 6
+      Strength: 6
+
+  Metallurgy:
+    description: Smelting, forging, and crafting with metals.
+    attribute_weights:
+      Vitality: 4
+      Strength: 4
+      Intellect: 4
+
+    # Pioneer
+
+  Survival:
+    description: Basic crafting, food preparation, and first aid.
+    attribute_weights:
+      Acuity: 8
+      Vitality: 4
+
+  Husbandry:
+    description: Livestock, crop cultivation, and resource management.
+    attribute_weights:
+      Vitality: 6
+      Strength: 3
+      Presence: 3
+
+  Outfitting:
+    description: Clothing, cobbling, armor and textiles.
+    attribute_weights:
+      Dexterity: 6
+      Acuity: 6
+
+  # Scholar
+
+  Alchemy:
+    description: Transforming substances and creating potions.
+    attribute_weights:
+      Intellect: 7
+      Acuity: 5
+
+  Artifacts:
+    description: Crafting wands, staves, talismans, and charms.
+    attribute_weights:
+      Intellect: 8
+      Dexterity: 4
+
+  Spellbinding:
+    description: Embedding magical properties into objects and materials.
+    attribute_weights:
+      Intellect: 6
+      Discipline: 6
+
