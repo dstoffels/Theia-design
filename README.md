@@ -6,7 +6,7 @@ When working in the [Theia-design](https://github.com/dstoffels/Theia-design.git
 git subtree pull --prefix=design https://github.com/dstoffels/Theia-design.git main --squash -m "docs: design updates"
 ```
 
-If edits or corrections are made in the [main game repository](https://github.com/dstoffels/Theia.git), they must be pushed back to the [Theia-design](https://github.com/dstoffels/Theia-design.git) repository:
+If edits or corrections are made in this subtree on the [main game repository](https://github.com/dstoffels/Theia.git), they must be pushed to the [Theia-design](https://github.com/dstoffels/Theia-design.git) repository:
 ```bash
 git subtree push --prefix=design https://github.com/dstoffels/Theia-design.git main
 ```

@@ -1,0 +1,128 @@
+attributes:
+  Vitality:
+    description: Physical fitness, endurance, and resistance to harm or environmental extremes.
+  Strength:
+    description: Raw physical power, reflecting the ability to exert force, break barriers, and endure heavy physical strain.
+  Agility:
+    description: Swift and graceful movement, representing balance, speed and reflexes. It defines the fluidity of motion in physical activity.
+  Dexterity:
+    description: Fine motor skills, representing precision, steadiness, and control. It encompasses tasks requiring finesse and skillful handling.
+  Discipline:
+    description: Focus, self-control, and mental fortitude. It signifies the ability to stay composed and consistent under pressure.
+  Intellect:
+    description: Abstract reasoning, comprehension, and problem-solving. It reflects the capacity for logic, learning, and mastery of knowledge.
+  Presence:
+    description: Spirit, passion, and influence over other beings, representing the depth of spiritual connection.
+  Acuity:
+    description: Keenness of the senses, reflecting a character’s awareness, intuition, and ability to respond quickly to their surroundings.
+
+vitals:
+  Stamina:
+    description: This represents a character's physical endurance. It is the amount of energy you have to spend on abilities that require physical exertion.
+  Focus:
+    description: A character's mental fortitude; the amount of energy you have to spend on abilities that require brainpower.
+  Health:
+    description: A character's current physical condition, derived directly from Vitality. Death occurs when its level reaches 0. Damaged Body Parts bleed out and reduce the recovery rate of Health. Poisons and illness can also reduce maximum health and recovery rate.
+  Psyche:
+    description: A character's current mental and spiritual condition, derived directly from Discipline. It represents the ability to withstand psychological and spiritual trauma. Death occurs when its level reaches 0. Psyche is affected by curses, toxins and psionic attacks.
+  Temperature:
+    description: A thermal equilibrium between hot and cold that can be affected by the environment or spells. When a character's temperature drops below the minimum tolerance, agility is reduced, slowing them down. Too hot, and the character's stamina and focus recovery is reversed.
+
+anatomy:
+  globals:
+    HITPOINT_ATTRIBUTES:
+      - Vitality
+      - Strength
+  bodyparts:
+    Head:
+      critical: true
+      size: 2
+      appendages:
+      attributes:
+        - Discipline
+        - Intellect
+        - Presence
+        - Acuity
+    Face:
+      critical: true
+      size: 1
+      appendages:
+      attributes:
+        - Presence
+        - Acuity
+    Neck:
+      critical: true
+      size: 1
+      appendages:
+      attributes:
+        - Discipline
+        - Presence
+    Chest:
+      critical: true
+      size: 4
+      appendages:
+        - Abdomen
+        - Left Arm
+        - Right Arm
+      attributes:
+        - Discipline
+    Abdomen:
+      critical: false
+      size: 4
+      appendages:
+        - Left Leg
+        - Right Leg
+      attributes:
+        - Agility
+    Left Arm:
+      critical: false
+      size: 4
+      appendages:
+        - Left Hand
+      attributes:
+        - Dexterity
+    Left Hand:
+      critical: false
+      size: 2
+      appendages:
+      attributes:
+        - Dexterity
+    Right Arm:
+      critical: false
+      size: 4
+      appendages:
+        - Right Hand
+      attributes:
+        - Dexterity
+    Right Hand:
+      critical: false
+      size: 2
+      appendages:
+      attributes:
+        - Dexterity
+    Left Leg:
+      critical: false
+      size: 5
+      appendages:
+        - Left Foot
+      attributes:
+        - Agility
+    Left Foot:
+      critical: false
+      size: 3
+      appendages:
+      attributes:
+        - Agility
+    Right Leg:
+      critical: false
+      size: 5
+      appendages:
+        - Right Foot
+      attributes:
+        - Agility
+    Right Foot:
+      critical: false
+      size: 3
+      appendages:
+      attributes:
+        - Agility
