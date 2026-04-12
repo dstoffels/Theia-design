@@ -8,28 +8,28 @@ git subtree push --prefix=design https://github.com/dstoffels/Theia-design.git m
 ## Attributes
 There are 8 attributes that serve as the core for a character's Skills & Vitals. Attribute levels are assigned at character creation and modified by the character's Lineage. As you level up your skills, skill points (SP) are allocated to the skill's associated attributes, leveling them up with every 100SP.
 
-#### Vitality
+### Vitality
 Physical fitness, endurance, and resistance to harm or environmental extremes.
 
-#### Strength
+### Strength
 Raw physical power, reflecting the ability to exert force, break barriers, and endure heavy physical strain.
 
-#### Agility
+### Agility
 Swift and graceful movement, representing balance, speed and reflexes. It defines the fluidity of motion in physical activity.
 
-#### Dexterity
+### Dexterity
 Fine motor skills, representing precision, steadiness, and control. It encompasses tasks requiring finesse and skillful handling.
 
-#### Discipline
+### Discipline
 Focus, self-control, and mental fortitude. It signifies the ability to stay composed and consistent under pressure.
 
-#### Intellect
+### Intellect
 Abstract reasoning, comprehension, and problem-solving. It reflects the capacity for logic, learning, and mastery of knowledge.
 
-#### Presence
+### Presence
 Passion, creativity, and influence over other beings, representing the depth of spiritual connection. 
 
-#### Acuity
+### Acuity
 Keenness of the senses, reflecting a character’s awareness, intuition, and ability to respond quickly to their surroundings.
 
 ---
@@ -43,27 +43,53 @@ Impairment: The current level of impairment imparted by the vital on any abiliti
 Tolerance: The point at which impairment begins if the vital's level drops below or goes above.
 Recovery Rate: The amount of points a vital recovers per pulse (there are 30 pulses per second).
 
-#### Stamina
-This represents a character's physical endurance. It is the amount of energy you have to spend on abilities that require physical exertion.
+### Stamina
+The amount of energy you have to spend on abilities that require physical exertion.
 
-#### Focus
-A character's mental fortitude; the amount of energy you have to spend on abilities that require brainpower.
+**Attribute Weights**
+- Vitality: 2
+- Strength: 1
+- Agility: 1
+- Dexterity: 1
 
-#### Health
+### Focus
+The amount of energy you have to spend on abilities that require brainpower.
+
+**Attribute Weights**
+- Discipline: 2
+- Intellect: 1
+- Presence: 1
+- Acuity: 1
+
+### Health
 A character's current physical condition, derived directly from Vitality. Death occurs when its level reaches 0. Damaged Body Parts bleed out and reduce the recovery rate of Health. Poisons and illness can also reduce maximum health and recovery rate.
 
-#### Psyche
+**Attribute Weights**
+- Vitality: 4
+- Strength: 2
+
+### Psyche
 A character's current mental and spiritual condition, derived directly from Discipline. It represents the ability to withstand psychological and spiritual trauma. Death occurs when its level reaches 0. Psyche is affected by curses, toxins and psionic attacks.
 
-#### Temperature
+**Attribute Weights**
+- Discipline: 4
+- Presence: 2
+
+### Temperature
 A thermal equilibrium between hot and cold that can be affected by the environment or spells. When a character's temperature drops below the minimum tolerance, agility is reduced, slowing them down. Too hot, and the character's stamina and focus recovery is reversed.
 
-## Anatomy
-A character's anatomy is comprised of 13 **bodyparts**, generally grouped by 6 **armor slots**. Each bodypart has its own hitpoints (HP), representing the amount of damage it can withstand before becoming **impaired** or **crippled**. The max HP is derived from the average of vitality and strength.
+**Attribute Weights**
+- Vitality: 2
+- Discipline: 2
+
+---
+
+## Anatomies
+A humanoid anatomy is comprised of 13 **bodyparts**, generally grouped by 6 **armor slots**. Each bodypart has its own hitpoints (HP), representing the amount of damage it can withstand before becoming **impaired** or **crippled**. The max HP is derived from the average of vitality and strength.
 
 A bodypart is impaired when its HP drop below half its maximum (damage threshold). Impaired bodyparts no longer recover HP, require medical treatment and impart a penalty on its associated attributes equal to the damage threshold - current HP level.
 
-A bodypart is crippled when its HP reaches 0. Crippled bodyparts cannot be used for combat or actions that require them, along with any of their connected **appendages**. **Critical** bodyparts kill the player when crippled. If a body part is crippled its appendages are also crippled, but this does not affect the HP of the appendages.
+A bodypart is crippled when its HP reaches 0. HP can drop below 0, requiring more healing to bring it out of the crippled state. Crippled bodyparts cannot be used for combat or actions that require them, along with any of their connected **appendages**. **Critical** bodyparts kill the player when crippled. If a body part is crippled, its appendages are also crippled, but this does not affect the HP of the appendages. 
 
 A bodypart's **size** determines its chance or difficulty of being hit during combat. Chance to hit is determined by the size of the target bodypart relative to the total size of all bodyparts. 
 

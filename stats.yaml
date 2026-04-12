@@ -19,14 +19,33 @@ attributes:
 vitals:
   Stamina:
     description: This represents a character's physical endurance. It is the amount of energy you have to spend on abilities that require physical exertion.
+    attribute_weights:
+      Vitality: 2
+      Strength: 1
+      Agility: 1
+      Dexterity: 1
   Focus:
     description: A character's mental fortitude; the amount of energy you have to spend on abilities that require brainpower.
+    attribute_weights:
+      Discipline: 2
+      Intellect: 1
+      Presence: 1
+      Acuity: 1
   Health:
-    description: A character's current physical condition, derived directly from Vitality. Death occurs when its level reaches 0. Damaged Body Parts bleed out and reduce the recovery rate of Health. Poisons and illness can also reduce maximum health and recovery rate.
+    description: A character's current physical condition. Death occurs when its level reaches 0. Damaged Body Parts bleed out and reduce the recovery rate of Health. Poisons and illness can also reduce maximum health and recovery rate.
+    attribute_weights:
+      Vitality: 4
+      Strength: 2
   Psyche:
-    description: A character's current mental and spiritual condition, derived directly from Discipline. It represents the ability to withstand psychological and spiritual trauma. Death occurs when its level reaches 0. Psyche is affected by curses, toxins and psionic attacks.
+    description: A character's current mental and spiritual condition. It represents the ability to withstand psychological and spiritual trauma. Death occurs when its level reaches 0. Psyche is affected by curses, toxins and psionic attacks.
+  attribute_weights:
+      Discipline: 4
+      Presence: 2
   Temperature:
     description: A thermal equilibrium between hot and cold that can be affected by the environment or spells. When a character's temperature drops below the minimum tolerance, agility is reduced, slowing them down. Too hot, and the character's stamina and focus recovery is reversed.
+    attribute_weights:
+      Vitality: 2
+      Discipline: 2
 
 anatomy:
   globals:

@@ -4,10 +4,12 @@ git subtree push --prefix=design https://github.com/dstoffels/Theia-design.git m
 ```
 
 # Equipment
+Equipment can come in simple or complex forms. Simple equipment are single items crafted directly from materials, while complex equipment are assembled from components, requiring multi-tiered processes and specialized facilities to craft.
 
+Equipment has durability points that represent its condition. Better equipment and the materials used to craft it, will be reflected in its durability (max condition). Items break when their condition drops to 0, rendering them useless, and can be repaired with or salvaged for its base materials. Complex components can be disassembled to recover components, so long as the item isn't broken. Certain extremely rare materials are unbreakable and can be disassembled, but cannot be salvaged.
 
 ## Bludgeons
-Maces, axes and hammers, any weapon with a handle and weighted head. One-handed bludgeons are great for dual wielding and small axes are especially good for throwing. Big, heavy, two-handed bludgeons, like battle axes and mauls, are perfect for those who like dealing loads of damage with reckless abandon. Bludgeons are particularly suited for overpowering defenses, knocking away shields or dealing damage directly to shields/armor. All bludgeons deal impact damage, which damages your opponents equipment.
+Maces, axes and hammers, any weapon with a handle and weighted head. One-handed bludgeons are great for dual wielding and small axes are especially good for throwing. Big, heavy, two-handed bludgeons, like battle axes and mauls, are perfect for those who like dealing loads of damage with reckless abandon. All bludgeons deal impact damage, which imparts damage to your opponents equipment.
 
 
 | Attribute | Weight |
