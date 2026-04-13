@@ -38,7 +38,7 @@ Bludgeons are typically made by combining a handle and head, but some bludgeons 
 - Medium: 40-80cm, switch-handed bludgeons.
 - Long: 80-120cm, large, heavy two-handed bludgeons.
 
-#### Modifiers
+#### Modules
 - Pick: A long spike, typically attached to a hammer or adze, used for piercing armor.
 - Flange: A protruding ridge or rim to increase the impact of a mace.
 - Spike: A small, pointed projection to add armor piercing to a mace.
@@ -426,7 +426,7 @@ Polearms are typically made by combining a long, narrow shaft with a spearhead. 
 - Long: 2-3m
 - Great: 3-4m, often requires a butt cap for balance.
 
-#### Modifiers
+#### Modules
 - Hook: A curved blade or projection used for pulling or disarming opponents.
 - Spike: A pointed projection used for piercing armor or as a secondary attack option.
 - Butt Cap: A weighted end on the shaft opposite the head, used for striking or balance.

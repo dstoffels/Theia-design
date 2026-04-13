@@ -491,7 +491,7 @@ Flint is a hard, brittle rock that's used for primitive equipment and as a fires
 **Unit**: kg
 
 **Stats**
-| Density | Durability | Damage Modifier | Hindrance | Conductivity |
+| Density | Durability | DF | Hindrance | Conductivity |
 | --- | --- | --- | --- | --- |
 | 2.6 | 100 | 0.8 | 5 | 0 |
 
@@ -504,7 +504,7 @@ Volcanic glass that breaks off into sharp, brittle chunks. Obsidian is used for 
 **Unit**: kg
 
 **Stats**
-| Density | Durability | Damage Modifier | Hindrance | Conductivity |
+| Density | Durability | DF | Hindrance | Conductivity |
 | --- | --- | --- | --- | --- |
 | 2.4 | 150 | 1.0 | 10 | 0 |
 
@@ -541,7 +541,7 @@ Naturally occurring in its metallic form, gold is a precious metal used for craf
 **Unit**: g
 
 **Stats**
-| Density | Durability | DamageModifier | Hindrance | Conductivity |
+| Density | Durability | DF | Hindrance | Conductivity |
 | --- | --- | --- | --- | --- |
 | 19.3 | 50 | 1.2 | 0 | 1.1 |
 
@@ -568,10 +568,11 @@ Branches and logs used in almost all types of crafting and construction.
 
 **Core**: Yes
 **Unit**: kg
+**Tages**: Wood, Hardwood, Softwood
 
 **Stats**
 
-| Density | Durability | Damage Modifier | Hindrance | Conductivity |
+| Density | Durability | DF | Hindrance | Conductivity |
 | --- | --- | --- | --- | --- |
 | 0.6 | 50 | 0.5 | 5 | 0 |
 
@@ -582,9 +583,10 @@ Hollow wooden stalks used for crafting bows and blowguns.
 
 **Core**: Yes
 **Unit**: kg
+**Tags**: Wood, Softwood
 
 **Stats**
-| Density | Durability | Damage Modifier | Hindrance | Conductivity |
+| Density | Durability | DF | Hindrance | Conductivity |
 | --- | --- | --- | --- | --- |
 | 0.5 | 100 | 0.6 | 5 | 0 |
 
@@ -595,9 +597,10 @@ Branches from yew trees, used for crafting bows and wands.
 
 **Core**: Yes
 **Unit**: kg
+**Tags**: Wood, Softwood
 
 **Stats**
-| Density | Durability | Damage Modifier | Hindrance | Conductivity |
+| Density | Durability | DF | Hindrance | Conductivity |
 | --- | --- | --- | --- | --- |
 | 0.7 | 200 | 0.8 | 5 | 0 |
 
@@ -608,9 +611,10 @@ A distinct yellow wood from the Bodark tree, known as "Bow Wood", used for craft
 
 **Core**: Yes
 **Unit**: kg
+**Tags**: Wood, Softwood
 
 **Stats**
-| Density | Durability | Damage Modifier | Hindrance | Conductivity |
+| Density | Durability | DF | Hindrance | Conductivity |
 | --- | --- | --- | --- | --- |
 | 0.8 | 150 | 1.0 | 15 | 0 |
 
@@ -621,12 +625,12 @@ A magical wood with unique properties, used for crafting enchanted items. Can on
 
 **Core**: Yes
 **Unit**: kg
+**Tags**: Wood, Softwood
 
 **Stats**
-| Density | Durability | Damage Modifier | Hindrance | Conductivity |
+| Density | Durability | DF | Hindrance | Conductivity |
 | --- | --- | --- | --- | --- |
 | 0.5 | 0 | 1.2 | 0 | 0 |
-
 
 ---
 
@@ -683,9 +687,10 @@ A an animal hide used for making primitive armor and refining into leathers.
 
 **Core**: Yes
 **Unit**: kg
+**Tags**: Textile
 
 **Stats**
-| Density | Durability | Damage Modifier | Hindrance | Conductivity |
+| Density | Durability | DF | Hindrance | Conductivity |
 | --- | --- | --- | --- | --- | --- |
 | 0.9 | 100 | 0.8 | 10 | 0 |
 
@@ -715,6 +720,7 @@ Seeds harvested from various trees, used for planting and crafting oils.
 
 **Core**: No
 **Unit**: g
+**Tags**: Seed
 
 ---
 
@@ -723,6 +729,7 @@ Seeds from yew trees, used for planting and crafting oils.
 
 **Core**: No
 **Unit**: g
+**Tags**: Seed
 
 ---
 
@@ -731,6 +738,7 @@ Seeds from bamboo plants, used for planting and crafting oils.
 
 **Core**: No
 **Unit**: g
+**Tags**: Seed
 
 ---
 #### Bodark Seeds
@@ -738,6 +746,7 @@ Seeds from Bodark trees, used for planting and crafting oils.
 
 **Core**: No
 **Unit**: g
+**Tags**: Seed
 
 ---
 
@@ -746,6 +755,7 @@ Seeds from the Avaram shrub, used for planting and crafting oils.
 
 **Core**: No
 **Unit**: g
+**Tags**: Seed
 
 ---
 
@@ -768,6 +778,7 @@ Berries from the Rhus shrub, used for planting and making Urushi lacquer and tox
 
 **Core**: No
 **Unit**: g
+**Tags**: Seed
 
 ---
 
@@ -776,6 +787,7 @@ Fruits from the Mulberry tree, used for planting, food and reagents.
 
 **Core**: No
 **Unit**: g
+**Tags**: Seed
 
 ---
 
@@ -788,8 +800,14 @@ Harvested from animals to produce food and sinew.
 #### Bone
 A combination of bone and horn with an extensive range of uses, including crafting equipment, adhesives and medicinal ointments.
 
-**Core**: No
+**Core**: Yes
 **Unit**: kg
+**Tags**: Rigid
+
+**Stats**
+| Density | Durability | DF | Hindrance | Conductivity |
+| --- | --- | --- | --- | --- |
+| 1.2 | 200 | 1.0 | 15 | 0 |
 
 ---
 
@@ -807,9 +825,10 @@ A stiff material made from animal hides, for making armor and shields.
 **Skill**: Husbandry
 **Difficulty**: 50
 **Unit**: kg
+**Tags**: Rigid
 
 **Stats**
-| Density | Durability | Damage Modifier | Hindrance | Conductivity |
+| Density | Durability | DF | Hindrance | Conductivity |
 | --- | --- | --- | --- | --- |
 | 0.9 | 150 | 0.8 | 10 | 0 |
 
@@ -829,9 +848,10 @@ A hard, molded leather polymer made from specially treated animal hides, used fo
 **Skill**: Husbandry
 **Difficulty**: 150
 **Unit**: g
+**Tags**: Rigid
 
 **Stats**
-| Density | Durability | Damage Modifier | Hindrance | Conductivity |
+| Density | Durability | DF | Hindrance | Conductivity |
 | --- | --- | --- | --- | --- |
 | 0.7 | 300 | 1.0 | 20 | 0 |
 
@@ -853,6 +873,7 @@ A malleable metal smelted from chalcopyrite, but also exists in a pure, native f
 **Skill**: Metallurgy
 **Difficulty**: 50
 **Unit**: kg
+**Tags**: Rigid, Metal, Metal T1
 
 **Recipes**
 | Material | Amount |
@@ -871,7 +892,7 @@ A malleable metal smelted from chalcopyrite, but also exists in a pure, native f
 | **Yield** | 1 Copper |
 
 **Stats**
-| Density | Durability | DamageModifier | Hindrance | Conductivity |
+| Density | Durability | DF | Hindrance | Conductivity |
 | --- | --- | --- | --- | --- |
 | 8 | 100 | 1.0 | 10 | 1 |
 
@@ -884,6 +905,7 @@ A copper-tin alloy, smelted from chalcopyrite/copper and cassiterite. A signific
 **Skill**: Metallurgy
 **Difficulty**: 100
 **Unit**: kg
+**Tags**: Rigid, Metal, Metal T1
 
 **Recipes**
 | Material | Amount |
@@ -911,7 +933,7 @@ A copper-tin alloy, smelted from chalcopyrite/copper and cassiterite. A signific
 | **Yield** | 1 Bronze |
 
 **Stats**
-| Density | Durability | DamageModifier | Hindrance | Conductivity |
+| Density | Durability | DF | Hindrance | Conductivity |
 | --- | --- | --- | --- | --- |
 | 8.8 | 1000 | 1 | 15 | 0.9 |
 
@@ -920,9 +942,12 @@ A copper-tin alloy, smelted from chalcopyrite/copper and cassiterite. A signific
 #### Silver
 Smelted from Galena, silver is a very soft, precious metal that's difficult to extract from its ore. As such, Galena yields a very small amount of silver. It's used for crafting currency and magical items, but is too soft to be used for tools or weapons.
 
+**Core**: Yes
 **Skill**: Metallurgy
 **Difficulty**: 200
 **Unit**: kg
+**Tags**: Metal
+
 
 **Recipes**
 | Material | Amount |
@@ -942,7 +967,7 @@ Smelted from Galena, silver is a very soft, precious metal that's difficult to e
 | **Yield** | 1 Silver |
 
 **Stats**
-| Density | Durability | DamageModifier | Hindrance | Conductivity |
+| Density | Durability | DF | Hindrance | Conductivity |
 | --- | --- | --- | --- | --- |
 | 10.5 | 75 | 1.1 | 0 | 1 |
 
@@ -951,9 +976,11 @@ Smelted from Galena, silver is a very soft, precious metal that's difficult to e
 #### Iron
 A common metal smelted from hematite. Iron is equivalent to bronze, but more difficult to smelt. Iron is used for crafting tools, weapons, armor and construction materials. Iron items can easily be repaired, or recycled back into iron, giving it a distinct resource advantage over bronze.
 
+**Core**: Yes
 **Skill**: Metallurgy
 **Difficulty**: 200
 **Unit**: kg
+**Tags**: Rigid, Metal, Metal T2
 
 **Recipes**
 | Material | Amount |
@@ -974,7 +1001,7 @@ A common metal smelted from hematite. Iron is equivalent to bronze, but more dif
 | **Yield** | 1 Iron |
 
 **Stats**
-| Density | Durability | DamageModifier | Hindrance | Conductivity |
+| Density | Durability | DF | Hindrance | Conductivity |
 | --- | --- | --- | --- | --- |
 | 7.8 | 1000 | 1 | 15 | 0.7 |
 
@@ -983,9 +1010,12 @@ A common metal smelted from hematite. Iron is equivalent to bronze, but more dif
 #### Steel
 Steel is an iron-carbon alloy that's stronger and more durable than iron, used for crafting high-quality equipment. Steel items can easily be repaired, or recycled back into steel. Steel is smelted from iron rather than ore, so it has a much better yield ratio than iron.
 
+**Core**: Yes
 **Skill**: Metallurgy
 **Difficulty**: 300
 **Unit**: kg
+**Tags**: Rigid, Metal, Metal T2
+
 
 **Recipes**
 | Material | Amount |
@@ -1008,7 +1038,7 @@ Steel is an iron-carbon alloy that's stronger and more durable than iron, used f
 | **Yield** | 1 Steel |
 
 **Stats**
-| Density | Durability | DamageModifier | Hindrance | Conductivity |
+| Density | Durability | DF | Hindrance | Conductivity |
 | --- | --- | --- | --- | --- |
 | 7.8 | 2000 | 1.2 | 25 | 0.6 |
 
@@ -1017,10 +1047,11 @@ Steel is an iron-carbon alloy that's stronger and more durable than iron, used f
 #### Wootz
 Wootz is a high-carbon crucible steel that's significantly stronger, much more durable and difficult to produce than steel. Wootz is used for crafting some the best equipment, but requires a draft furnace to smelt. Wootz is **experimental**, meaning the recipe must be discovered through player trial and error. Failed attempts will yield steel and drop hints to the player about the results. Wootz items can easily be repaired, or recycled back into wootz.
 
+**Core**: Yes
 **Skill**: Metallurgy
 **Difficulty**: 500
 **Unit**: kg
-
+**Tags**: Rigid, Metal, Metal T2
 **Recipes**
 | Material | Amount |
 | --- | --- |
@@ -1029,7 +1060,7 @@ Wootz is a high-carbon crucible steel that's significantly stronger, much more d
 | Sand | 9 |
 | Avaram | 3 |
 | Crucible | 1 |
-| **Station** | Draft Furnace |
+| **Station** | Crucible Furnace |
 | **Yield** | 1 Wootz |
 
 **Recycling**
@@ -1040,11 +1071,11 @@ Wootz is a high-carbon crucible steel that's significantly stronger, much more d
 | Sand | 9 |
 | Avaram | 3 |
 | Crucible | 1 |
-| **Station** | Draft Furnace |
+| **Station** | Crucible Furnace |
 | **Yield** | 1 Wootz |
 
 **Stats**
-| Density | Durability | DamageModifier | Hindrance | Conductivity |
+| Density | Durability | DF | Hindrance | Conductivity |
 | --- | --- | --- | --- | --- |
 | 7.8 | 5000 | 1.4 | 30 |  0.5 |
 
@@ -1053,9 +1084,11 @@ Wootz is a high-carbon crucible steel that's significantly stronger, much more d
 #### Mithril
 An extremely rare, extremely light, indestructible metal that can only be forged into a component once, requiring great skill. Smelting hasperite into mithril is an experimental process that must be discovered through player trial and error. Failed attempts will return the hasperite and drop hints to the player about the results. The smelting process requires an extremely skilled smith and an alchemist who must produce a very difficult catalyst potion from rare ingredients. While it's smelted in a draft furnace, mithril must be forged an a mana forge.
 
+**Core**: Yes
 **Skill**: Metallurgy
 **Difficulty**: 600
 **Unit**: kg
+**Tags**: Rigid, Metal, Metal T3
 
 **Recipes**
 | Material | Amount |
@@ -1067,11 +1100,11 @@ An extremely rare, extremely light, indestructible metal that can only be forged
 | Bone | 3 |
 | Crucible | 1 |
 | Aqua Regia | 1 |
-| **Station** | Draft Furnace |
+| **Station** | Crucible Furnace |
 | **Yield** | 1 Mithril |
 
 **Stats**
-| Density | Durability | DamageModifier | Hindrance | Conductivity |
+| Density | Durability | DF | Hindrance | Conductivity |
 | --- | --- | --- | --- | --- |
 | 3.0 | 0 | 1.5 | 60 | 0 |
 
@@ -1080,9 +1113,11 @@ An extremely rare, extremely light, indestructible metal that can only be forged
 #### Rolaren
 The top-tier, indestructible magical metal. A mithril alloy that can only be forged by the most skilled Smiths, Alchemists and Artificers. Rolaren is smelted from mithril using an experimental process that must be discovered through player trial and error. Failed attempts will return the mithril and drop hints to the player about the results. Rolaren must be forged an a mana forge.
 
+**Core**: Yes
 **Skill**: Metallurgy
 **Difficulty**: 800
 **Unit**: kg
+**Tags**: Rigid, Metal, Metal T4
 
 **Recipes**
 | Material | Amount |
@@ -1096,11 +1131,11 @@ The top-tier, indestructible magical metal. A mithril alloy that can only be for
 | Sand | 21 |
 | Crucible | 1 |
 | Aqua Regia | 1 |
-| **Station** | Draft Furnace |
+| **Station** | Crucible Furnace |
 | **Yield** | 1 Rolaren |
 
 **Stats**
-| Density | Durability | DamageModifier | Hindrance | Conductivity |
+| Density | Durability | DF | Hindrance | Conductivity |
 | --- | --- | --- | --- | --- |
 | 2.5 | 0 | 1.7 | 80 | 0 |
 
@@ -1118,7 +1153,7 @@ A flexible, durable material made from treated animal hides, used for making rop
 **Unit**: g
 
 **Stats**
-| Density | Durability | Damage Modifier | Hindrance | Conductivity |
+| Density | Durability | DF | Hindrance | Conductivity |
 | --- | --- | --- | --- | --- |
 | 0.8 | 200 | 0.9 | 15 | 0 |
 
@@ -1141,7 +1176,7 @@ A lightweight, breathable fabric made from flax fibers, used for making clothing
 **Unit**: g
 
 **Stats**
-| Density | Durability | Damage Modifier | Hindrance | Conductivity |
+| Density | Durability | DF | Hindrance | Conductivity |
 | --- | --- | --- | --- | --- |
 | 0.5 | 50 | 0.7 | 5 | 0 |
 
@@ -1163,7 +1198,7 @@ A strong, coarse fabric made from hemp fibers, used for making rope, sacks and b
 **Unit**: g
 
 **Stats**
-| Density | Durability | Damage Modifier | Hindrance | Conductivity |
+| Density | Durability | DF | Hindrance | Conductivity |
 | --- | --- | --- | --- | --- |
 | 0.6 | 75 | 0.8 | 10 | 0 |
 
@@ -1185,7 +1220,7 @@ A soft, fluffy fabric made from cotton bolls, used for making clothing and armor
 **Unit**: g
 
 **Stats**
-| Density | Durability | Damage Modifier | Hindrance | Conductivity |
+| Density | Durability | DF | Hindrance | Conductivity |
 | --- | --- | --- | --- | --- |
 | 0.5 | 50 | 0.7 | 5 | 0 |
 
@@ -1207,7 +1242,7 @@ A luxurious, lightweight and strikingly strong fabric made from silk filaments, 
 **Unit**: g
 
 **Stats**
-| Density | Durability | Damage Modifier | Hindrance | Conductivity |
+| Density | Durability | DF | Hindrance | Conductivity |
 | --- | --- | --- | --- | --- |
 | 0.4 | 100 | 0.6 | 2 | 0 |
 
@@ -1229,7 +1264,7 @@ An incredibly strong and elastic silken fabric made from spiderdope, used for ma
 **Unit**: g
 
 **Stats**
-| Density | Durability | Damage Modifier | Hindrance | Conductivity |
+| Density | Durability | DF | Hindrance | Conductivity |
 | --- | --- | --- | --- | --- |
 | 0.3 | 200 | 0.5 | 1 | 0 |
 
@@ -1420,103 +1455,418 @@ A lacquer made from distilling Rhus berries, charcoal and resin, used for waterp
 
 ---
 
+## Components
+Components are the building blocks for crafting complex, modular items. Some are swappable modules used to enhance existing items, like the pommel of a sword. Even after crafting, components can be reclaimed by disassembling an item, allowing the player to repurpose them into entirely different items.
 
+Core materials used to make a component will impart their stats into the crafted item. 
 
+### Blades
+The **core components** of swords, shortblades and polearms. Blades use a numeric sizing system that determines both the range of the final weapon and the amount of material required to craft the component. There are six blade **configurations**, each with determinant **lengths** to yield the exact component.
+
+**Length-Units**
+Depicts all length tiers and how much material is required for each.
+
+| Tier | Length | Units |
+| --- | --- | --- |
+| Tiny | 25 | 1 |
+| Very Short | 50 | 2 |
+| Short | 75 | 3 |
+| Medium | 100 | 4 |
+| Long | 150 | 5 |
+| Great | 200 | 6 |
+| Very Long | 300 | 8 |
+| Ultra Long | 400 | 10 |
+
+**Recipes**
+Recipes for such widely varying components are grounded in a dynamic system that scales. The player selects the blade configuration and length, which determines the amount of material required to craft the component. The player can then choose which metal to use, which determines the station required and crafting difficulty. To expand the component pool, configurations and their lengths can easily be added and the recipe will automatically scale to accommodate.
+
+| Material | Amount |
+| --- | --- |
+| [Metal T2, Metal T3] | {length-units} |
+| Charcoal | {10 per length-unit} |
+| Sand | {1 per length-unit} |
+| **Station** | [Metal T2, Metal T3] |
+| **Yield** | 1 {Length} Curved Blade |
+| **Difficulty** | {material.difficulty} |
 
 ---
 
-## Components
-Components are the building blocks for crafting items. Some are replaceable modules used to enhance existing items, like the pommel of a sword. Even after crafting, modules can be reclaimed by disassembling an item, allowing the player to repurpose them into entirely different items.
+#### Curved Blade
+A 1-sided blade with a curved edge used in knives, daggers and various swords.
 
-The materials used to make a component will impart their qualities into the crafted item. The durability of iron is greater than that of copper, but less than that of steel. For weapons, different materials affect weight or damage; for armor, its hindrance or damage reduction.
+**Lengths**
+- Tiny
+- Very Short
+- Short
+- Medium
+- Long
 
-### Blades
-- Thin: A narrow blade with a sharp point.
-- Broad: A wide, straight blade for crafting swords.
-- Curved: A short, curved blade for crafting swords.
-- Convex: A wide, curved blade for crafting swords.
-- Leaf: A broad, rounded, 2-sided blade for crafting shortblades.
-- Tapered: A triangular 2-sided blade for crafting daggers.
-- Knife: A small, 1-sided blade for crafting knives.
+---
+
+#### Convex Blade
+A wide, 1-sided blade with a convex edge used in knives, daggers and various swords.
+
+**Lengths**
+- Very Short
+- Short
+- Medium
+- Long
+
+---
+
+#### Leaf Blade
+A broad, rounded, 2-sided blade used in knives, daggers and various polearms as a spearhead.
+
+**Lengths**
+- Tiny
+- Very Short
+- Short
+
+---
+
+#### Broad Blade
+A wide, straight, 2-sided blade used in swords.
+
+**Lengths**
+- Short
+- Medium
+- Long
+- Great
+
+---
+
+#### Thin Blade
+A narrow, 2-sided blade used in swords and daggers.
+
+**Lengths**
+- Tiny
+- Very Short
+- Short
+- Medium
+- Long
+
+---
+
+#### Tapered Blade
+A triangular, 2-sided blade used in daggers.
+
+**Lengths**
+- Tiny
+- Very Short
+- Short
+
+---
 
 ### Heads
-| Component | Materials | Station | Description |
-| --- | --- | --- | --- |
-| Grip | Wood \ Bone \ Leather \ Rawhide \ Leather | Workbench | A handle for swords and shortblades, can be single, double or bastard. |
-| Knife Blade | Bone \ Flint \ Obsidian \ Copper+ | Kiln+ | A small blade for crafting knives (1-edge). |
-| Tapered Blade | Copper+ | Kiln+ | A triangular blade for crafting daggers (2-edge). |
-| Recurved Blade | Copper+ | Kiln+ | A curved blade for crafting daggers (1-edge). |
-| Thin Blade | Bronze+ | Kiln+ | A narrow blade for crafting swords & daggers (5 sizes, 2-edge). |
-| Broad Blade | Bronze+ | Kiln+ | A wide, straight blade for crafting swords (3 sizes, 2-edge). |
-| Curved Blade | Bronze+ | Kiln+ | A short, curved blade for crafting swords (3 sizes, 1-edge). |
-| Convex Blade | Bronze+ | Kiln+ | A wide, curved blade for crafting swords (3 sizes, 1-edge). |
-| Shaft | Wood | Workbench | A wooden haft for crafting polearms and bludgeons of varying lengths. |
-| Spearhead | Flint \ Obsidian \ Copper+ | Kiln+ | A short, tapered blade for crafting polearms. |
-| Hammerhead | Stone \ Copper+ | Kiln+ | A blunt head for crafting hammer-based bludgeons & tools (2 sizes). |
-| Axehead | Stone \ Copper+ | Kiln+ | A bladed head for crafting axe-based blugeons. |
-| Macehead | Stone \ Copper+ | Kiln+ | A spiked head for crafting mace-based bludgeons. |
-| Adzehead | Stone \ Copper+ | Kiln+ | A bladed head with a perpendicular edge for crafting adze-based weapons/tools. |
+The **core components** of bludgeons. Heads use a numeric sizing system that determines both the the final weapon and the amount of material required to craft the component. There are four head **configurations**, each with determinant **sizes** to yield the exact component.
 
-### Armor Components
-| Component | Materials | Station | Description |
-| --- | --- | --- | --- |
-| Kozane | Wood \ Bone \ Cuirbouilli \ Copper+ | Forge | Small, rigid plates for crafting lamellar & laminar armor (heavy). |
-| Lame | Wood \ Bone \ Cuirbouilli \ Copper+ | Forge | Long, rigid strips for crafting laminar armor (heavy). |
-| Plate | Copper+ | Forge | Large, rigid sheets for crafting plate armor (heavy). |
+**Size-Units**
+Depicts the size tiers and how much material is required for each.
 
+1. Small: 1 unit of material
+2. Medium: 2 units
+3. Large: 3 units
 
+**Recipes**
+Recipes for such widely varying components are grounded in a dynamic system that scales. The player selects the head configuration and size, which determines the amount of material required to craft the component. The player can then choose which material to use, which determines the station required and crafting difficulty. To expand the component pool, configurations and their sizes can easily be added and the recipe will automatically scale to accommodate.
 
-
-
-
-
-<!-- ## Raw Materials
-Raw materials are extracted directly from resource nodes and are often refined before crafting components or finished products.
-
-- Refined materials denoted with an asterisk require multiple materials to create.
-
-### Minerals
-Minerals come from **deposits** and can sometimes be gathered from the environment in small amounts by foraging (Survival). 
-
-**Skill**: Masonry
-
-| Material       | Refines to       | 
-| -------------- | ---------------- |
-| Clay           |                  |
-| Sand           |                  |
-| Flint          |                  |
-| Stone          |                  |
-| Obsidian       |                  |
-| Brimstone      |                  |
-| Chalcopyrite   | Copper, Bronze*  |
-| Cassiterite    | Bronze*          |
-| Galena      | Silver*           |
-| Gold Nuggets     | Gold*             |
-| Hematite       | Iron*, Steel*     |
-| Hasperite      | Mithril*, Rolaren*|
-
-### Wood
-**Skill**: Woodworking
-
-| Material | Refines to |
+| Material | Amount |
 | --- | --- |
-| Wood | Shaft, Charcoal, Tannin* |
-| Trunk | Lumber |
-| Yew |  |
-| Bamboo |  |
+| [Metal T1, Metal T2] | {size-units} |
+| Charcoal | {10 per size-unit} |
+| Sand | {1 per size-unit} |
+| **Station** | [Metal T1, Metal T2] |
+| **Yield** | 1 {Size} {Head Configuration} |
+| **Difficulty** | {material.difficulty} |
 
-### Fibers
-**Skill**: Survival
+---
 
-| Material | Refines to |
+#### Hammerhead
+A round horizontal head used for crafting hammer-based bludgeons and tools.
+
+**Sizes**
+- Small
+- Medium
+- Large
+
+---
+
+#### Macehead
+A round, vertical head used for crafting mace-based bludgeons.
+
+**Sizes**
+- Medium
+- Large
+
+---
+
+#### Axehead
+A bladed head used for crafting axe-based bludgeons.
+
+**Sizes**
+- Small
+- Medium
+- Large
+
+---
+
+#### Adzehead
+A bladed head with a perpendicular edge used for crafting adze-based weapons and tools.
+
+**Sizes**
+- Small
+- Medium
+- Large
+
+---
+
+### Handles
+A wide variety of different types of handles that are combined with blades and heads to craft weapons and tools. 
+
+#### Grip
+The grip of a sword or shortblade hilt, which determines the handedness of the weapon.
+
+**Size-units**
+Grip sizes with the amount of material required for each.
+
+- Single: 1 unit of material
+- Bastard: 2 units
+- Double: 3 units
+
+**Recipes**
+| Material | Amount |
 | --- | --- |
-| Flax Fibers | Linen |
-| Hemp Fibers | Hemp |
-| Cotton Bolls | Cotton |
-| Silk Filaments | Silk |
-| Hide | Rawhide, Leather*, Cuirbouilli* |
+| [Hardwood, Bone] | {size-units} |
+| **Station** | Workbench |
+| **Yield** | 1 {Size} Grip |
+| **Difficulty** | 100 |
+
+#### Haft
+The handle of a bludgeon whose length plays a role in the type of weapon being crafted.
+
+**Length-units**
+- Short: 1 unit of material
+- Medium: 2 units
+- Long: 3 units
+
+**Recipes**
+| Material | Amount |
+| --- | --- |
+| [Hardwood] | {length-units} |
+| **Station** | Workbench |
+| **Yield** | 1 {Length} {Material} Haft |
+| **Difficulty** | 100 |
+
+#### Shaft
+The handle of a polearm whose length plays a role in the type of weapon being crafted and the reach of the weapon. Shafts are also used for arrows, wands and staves.
+
+**Length-Units**
+Depicts all length tiers and how much material is required for each.
+
+| Tier | Length | Material Units |
+| --- | --- | --- |
+| Tiny | 25 | 1 |
+| Very Short | 50 | 2 |
+| Short | 75 | 3 |
+| Medium | 100 | 4 |
+| Long | 150 | 5 |
+| Great | 200 | 6 |
+| Very Long | 300 | 8 |
+| Ultra Long | 400 | 10 |
+
+**Lengths**
+List of all possible shaft lengths.
+
+- Tiny
+- Very Short
+- Short
+- Medium
+- Long
+- Great
+- Very Long
+- Ultra Long
+
+**Recipes**
+| Material | Amount |
+| --- | --- |
+| [Hardwood] | (length-units) |
+| **Station** | Workbench |
+| **Yield** | 1 {Length} {Material} Shaft |
+| **Difficulty** | 100 |
+
+---
+
+### Modules
 
 
-### Byproducts
-Byproducts are miscellaneous materials harvested from all resources often used for food, medicines and alchemical reagents.
+#### Pommel
+The end cap of a sword hilt, which balances the weapon, determines the type of weapon, affecting its speed or damage depending.
+
+**Configurations**
+- Ring: a circular disk perpendicular to the blade.
+- Disc: a flat, circular pommel inline with the blade.
+- Round: a spherical pommel.
+- Pear: a tapered, teardrop-shaped pommel.
+- Mushroom: a long, tapered, rounded pommel.
+
+**Recipes**
+| Material | Amount |
+| --- | --- |
+| [Metal T2] | 2 |
+| Charcoal | 20 |
+| Sand | 2 |
+| **Station** | [Metal T2] |
+| **Yield** | 1 {Material} {Configuration} |
+| **Difficulty** | {material.difficulty} |
+
+---
+
+#### Guard
+A guard is fitted where the blade meets the hilt of a sword or dagger, adding a parry bonus and defines the type of sword.
+
+**Configurations**
+- Ring: a circular disk that separates the blade from the hilt
+- Cross: a horizontal bar that extends from the hilt on either side of the blade
+- Basket: an ornate, cage-like structure that encloses the hand.
+- Knuckle: a curved bar that extends from the hilt to the pommel.
+
+**Recipes**
+| Material | Amount |
+| --- | --- |
+| [Metal T2] | 2 |
+| Charcoal | 20 |
+| Sand | 2 |
+| **Station** | [Metal T2] |
+| **Yield** | 1 {Material} {Configuration} |
+| **Difficulty** | {material.difficulty} |
+
+---
+
+#### Augment
+Additional components that are added to equipment, adding actions and stats, and defining the type of weapon crafted. 
+
+**Configurations**
+- Flange: a protruding ridge to increase the impact damage and armor piercing of a mace.
+- Spike: a sharp projection to add the **pierce** action to bludgeons and polearms.
+- Hook: a curved projection to add the **hook** action to a polearm.
+- Butt Cap: an end cap for the bottom of a polearm shaft, adds the **swing** action to the weapon.
+
+**Recipes**
+| Material | Amount |
+| --- | --- |
+| [Metal T1] | 1 |
+| Charcoal | 10 |
+| Sand | 1 |
+| **Station** | [Metal T1] |
+| **Yield** | 1 {Material} {Configuration} |
+| **Difficulty** | {material.difficulty} |
+
+---
+
+### Archery
+
+#### Bowstave
+The core component of a bow, which can be layered in laminated bows.
+
+**Length-Units**
+Depicts all length tiers and how much material is required for each. The length of the bowstave determines the type of bow.
+
+| Tier | Length | Material Units |
+| --- | --- | --- |
+| Short | 75 | 1 |
+| Medium | 100 | 2 |
+| Long | 150 | 3 |
+| Great | 200 | 4 |
+
+
+
+#### Arrowhead
+The arrowhead is the business end of an arrow, which determines the type of arrow and its damage type.
+
+**Configurations**
+- Broadhead: a wide, flat arrowhead used for general purposes.
+- Bodkin: a narrow, pointed arrowhead used for piercing armor.
+- Blunt: a flat, rounded arrowhead used for training and hunting small game.
+- Barbed: an arrowhead with backward-facing hooks used for hunting and warfare.
+- Leaf: a leaf-shaped arrowhead used for general purposes.
+
+**Recipes**
+| Material | Amount |
+| --- | --- |
+| [Metal T1, Metal T2] | 1 |
+| Charcoal | 10 |
+| Sand | 1 |
+| **Station** | [Metal T1, Metal T2] |
+| **Yield** | 1 {Material} {Configuration} Arrowhead |
+| **Difficulty** | {material.difficulty} |
+
+---
+
+#### Fletching
+Stabilizing fins for arrows and bolts that drastically improve accuracy. 
+
+#### Tiller
+The body of a crossbow.
+
+#### Prod
+The bow of a crossbow, which determines the draw weight and range of the crossbow.
+
+### Armor
+
+#### Wire
+Used for crafting maille armor.
+
+**Recipes**
+| Material | Amount |
+| --- | --- |
+| [Metal T2, Metal T3] | 1 |
+| **Station** | Forge |
+| **Yield** | 1 {Material} |
+| **Difficulty** | 200 |
+
+#### Kozane
+Small, rigid plates used for crafting lamellar and laminar class heavy armor.
+
+**Recipes**
+| Material | Amount |
+| --- | --- |
+| [Rigid T2] | 1 |
+| **Station** | Workbench |
+| **Yield** | 1 {Material} Kozane |
+| **Difficulty** | {material.difficulty} |
+
+| Material | Amount |
+| --- | --- |
+| [Metal T2] | 1 |
+| Charcoal | 10 |
+| Sand | 2 |
+| **Station** | Forge |
+| **Yield** | 1 {Material} Kozane |
+| **Difficulty** | {material.difficulty} |
+
+#### Lame
+Long, rigid strips used for crafting laminar class heavy armor.
+
+**Recipes**
+| Material | Amount |
+| --- | --- |
+| [Metal T2] | 3 |
+| Charcoal | 20 |
+| Sand | 4 |
+| **Station** | Forge |
+| **Yield** | 1 {Material} Lame |
+| **Difficulty** | {material.difficulty} |
+
+#### Plate
+Large, rigid sheets used for crafting plate class heavy armor.
+
+**Recipes**
+| Material | Amount |
+| --- | --- |
+| [Metal T1] | 5 |
+| Charcoal | 50 |
+| Sand | 10 |
+| **Station** | Forge |
+| **Yield** | 1 {Material} Plate |
+| **Difficulty** | {material.difficulty} |
 
